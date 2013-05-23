@@ -1,0 +1,60 @@
+body{
+  padding:0 0 0 0;
+  margin: 0 0 0 0;
+}
+.header{
+  width:200%;
+  height:100px;
+  background-color: black;
+}
+
+.post {
+  display: block;
+  float:left;
+  min-height:100px;
+  position:relative;
+  margin: 0 8px 8px 0;
+}
+
+.content img{
+  width:100%;
+  height:200px;
+}
+.content{
+  margin-left:25%;
+  margin-right:25%;
+  display:block;
+}
+
+.post-title{
+  display:block;
+  color: rgba(255, 255, 255, 1);
+  position:absolute;
+  height:26px;
+  font-size:24px;
+  top:40%;
+  left:0;
+  right:0;
+  text-align:center;
+  margin: 0 8px 8px 0;
+}
+
+a{
+  color: rgba(255, 255, 255, 1);
+}
+a:visited {
+  color: rgba(255, 255, 255, 1);
+}
+
+.index{
+  margin-top:30px;
+  margin-bottom:100px;
+  display:block;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  position:relative;
+  width:100%;
+  height:100%;
+  padding: 5px 0 5px 0;
+
+}
